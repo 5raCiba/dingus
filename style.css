@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 81, 0);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    border: 10px solid black;
+    height: 20vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+/*
+    display: flex;
+    flex-direction: row; column | row-reverse | column-reverse 
+    justify-content: flex-start; flex-end | center | space-between | space-around | space-evenly
+    align-items: flex-start; flex-end | center | stretch
+
+    flex-wrap: nowrap; wrap | wrap-reverse
+    align-content: flex-start; flex-end | center | stretch | space-between | space-around
+*/
+
+.navbar {
+    background-color: #a79494;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Zgoraj-spodaj 50px, levo desno 20px */
+    padding: 50px 20px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+
+}
+
+.links a {
+    color: turquoise;
+}
